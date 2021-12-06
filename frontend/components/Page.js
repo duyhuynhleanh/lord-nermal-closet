@@ -10,7 +10,7 @@ const GlobalStyles = createGlobalStyle`
     font-style: normal;
   }
   html {
-    --red: #FF2E63;
+    --red: #E84545;
     --black: #222831;
     --grey: #323232;
     --gray: var(--grey);
@@ -20,12 +20,13 @@ const GlobalStyles = createGlobalStyle`
     --maxWidth: 1000px;
     --bs: 0 12px 24px 0 rgba(0,0,0,0.09);
     box-sizing: border-box;
+    font-size: 62.5%;
   }
   *, *:before, *:after {
     box-sizing: inherit;
   }
   body {
-    font-family: 'radnika_next', --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto, 'radnika_next', --apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0;
     margin: 0;
     font-size: 1.5rem;
@@ -39,7 +40,7 @@ const GlobalStyles = createGlobalStyle`
     text-decoration: underline;
   }
   button {
-    font-family: 'radnika_next', --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    font-family:'Open Sans', 'radnika_next', --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,  'Helvetica Neue',
   }
 `
 

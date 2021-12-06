@@ -1,7 +1,3 @@
-export default function IndexPage() {
-  return (
-    <div>
-      <p>Index Page</p>
-    </div>
-  )
-}
+import ProductPage from './products'
+
+export default ProductPage

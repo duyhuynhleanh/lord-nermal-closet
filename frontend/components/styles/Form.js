@@ -1,4 +1,4 @@
-import styled, { keyframes } from 'styled-components';
+import styled, { keyframes } from 'styled-components'
 
 const loading = keyframes`
   from {
@@ -10,7 +10,7 @@ const loading = keyframes`
     background-position: 100% 100%;
     /* rotate: 360deg; */
   }
-`;
+`
 
 const Form = styled.form`
   box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.05);
@@ -39,7 +39,7 @@ const Form = styled.form`
   button,
   input[type='submit'] {
     width: auto;
-    background: red;
+    background: var(--red);
     color: white;
     border: 0;
     font-size: 2rem;
@@ -59,9 +59,9 @@ const Form = styled.form`
       display: block;
       background-image: linear-gradient(
         to right,
-        #ff3019 0%,
-        #e2b04a 50%,
-        #ff3019 100%
+        var(--red) 0%,
+        #f4f7c5 50%,
+        var(--red) 100%
       );
     }
     &[aria-busy='true']::before {
@@ -69,6 +69,6 @@ const Form = styled.form`
       animation: ${loading} 0.5s linear infinite;
     }
   }
-`;
+`
 
-export default Form;
+export default Form
